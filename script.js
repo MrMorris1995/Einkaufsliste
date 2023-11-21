@@ -101,8 +101,6 @@ function countActiveItems(className) {
  */
 function updateItemEntries() {
     var itemEntries = "Noch " + countActiveItems("active") + " von " + getItemList().length + " Einträgen";
-    console.log(countActiveItems("active"));
-    console.log(getItemList().length);
     document.getElementById("getItemEntries").innerHTML = itemEntries;
 }
 
